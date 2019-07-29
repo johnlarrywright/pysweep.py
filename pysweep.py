@@ -15,6 +15,20 @@ def main():
         f.write('The following hosts were found to be online and responding to ping requests:\n\n')
         f.write('Detected Hosts:\n')
         f.write('==============\n')
+        ip = input('Enter Ip')
+        ip_spl = ip.split('.')
+
+        print(ip_spl)
+
+        dot = '.'
+
+        start = int(input('start ip: '))
+        end = int(input('End ip: '))
+
+        for ips in range (start, end):
+            print(ip_spl[0] + dot + ip_spl[1] + dot + ip_spl[2] + dot + str(ips))
+            
+            
         f.write(str(sub_ip.stderr))   
     print(sub_ip.stdout)
     print(sub_ip)
