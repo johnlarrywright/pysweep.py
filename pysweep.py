@@ -15,8 +15,6 @@ def main():
         f.write('The following hosts were found to be online and responding to ping requests:\n\n')
         f.write('Detected Hosts:\n')
         f.write('==============\n')
-        sub_ips = subprocess.run(['fping', '-a', '-C 5', '-q', ip_target], capture_output=True)
-        f.write()
         f.write(str(sub_ip.stderr))   
     print(sub_ip.stdout)
     print(sub_ip)
