@@ -4,7 +4,7 @@ import subprocess
 import ipaddress
 import os
 
-ip_target = '13.224.2.24' 
+ip_target = '13.224.2.0 13.224.2.255' 
 #response = os.system("fping -a, -C 5, -q, {}!".format (ip_target))
 
 def main():
