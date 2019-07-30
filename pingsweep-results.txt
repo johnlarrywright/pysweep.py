@@ -1,0 +1,6 @@
+The following hosts were found to be online and responding to ping requests:
+
+Detected Hosts:
+==============
+13.224.2.0 
+Total time to scan took :  9.53 9.53 9.55 9.58 9.58
